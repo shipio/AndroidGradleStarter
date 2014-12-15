@@ -3,13 +3,11 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.13.0'
-        classpath 'com.stanfy.spoon:spoon-gradle-plugin:0.9.+'
-        classpath 'com.jakewharton.sdkmanager:gradle-plugin:0.9.+'
+        classpath 'com.android.tools.build:gradle:1.0.0-rc4'
+        classpath 'com.stanfy.spoon:spoon-gradle-plugin:0.14.+'
     }
 }
 
-apply plugin: 'android-sdk-manager'
 apply plugin: 'com.android.application'
 apply plugin: 'spoon'
 
